@@ -9,5 +9,5 @@ images = bsky_api.get_image_urls(posts)
 
 #print("should be a massive list of stuff: ",images)
 
-os.makedirs(path, exist_ok = True) #is this okay????
-bsky_api.save_images(images,path)
+os.makedirs(path, exist_ok = True) #is this okay???? #probably lol
+bsky_api.save_images(images, path, thumbnails = False)
