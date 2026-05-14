@@ -1,8 +1,8 @@
 import os
 import bsky_api
 
-path = '../Thingys/Saved Pictures/etc/shift+barra/'
-handle = "cold-foxx56.bsky.social"
+path = './images/'
+handle = "plaster.gay"
 
 posts = bsky_api.get_liked_posts(handle)
 images = bsky_api.get_image_urls(posts)
